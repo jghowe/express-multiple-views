@@ -1,20 +1,31 @@
 {
   "name": "express-multiple-views",
-  "private": true,
-  "version": "0.5.0",
-  "description": "A patch to express to enable multiple view folders",
+  "version": "1.0.0",
+  "description": "A patch to express 3.x to enable multiple view folders",
   "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec"
+  },
   "repository": {
     "type": "git",
-    "url": "gitlab:jurassic/express-multiple-views.git"
+    "url": "git://github.com/jghowe/express-multiple-views.git"
   },
   "keywords": [
-    "express-multiple-views",
     "express",
-    "jurassic"
+    "view"
   ],
-  "author": "Jeff Howe",
-  "license": "None",
-  "dependencies": {
+  "author": "Jeffrey Howe (jghowe@gmail.com)",
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "http://github.com/jghowe/express-multiple-views/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "http://github.com/jghowe/expression-multiple-views/issues"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
   }
 }
